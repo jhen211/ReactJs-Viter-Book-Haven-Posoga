@@ -1,5 +1,7 @@
+
+import Home from "./components/pages/home/Home"
 import Header from "./components/partials/Header"
-import Home from "./pages/home/Home"
+
 
 function App() {
   
@@ -7,7 +9,7 @@ function App() {
   return (
     <>
      <div className="min-h-screen bg-gray-50">
-      <Header/>
+      <Header />
       <Home />
      </div>
     </>
